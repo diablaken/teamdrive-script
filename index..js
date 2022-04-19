@@ -4,7 +4,7 @@ var authConfig = {
   client_id: '', // Google Client ID
   client_secret: '', // Google Client Secret
   refresh_token: '', // Refresh token
-  domain: "", //College name to display
+  domain: "", //Name to display
   black_list: ["example@gmail.com"]
 };
 
@@ -18,10 +18,7 @@ var html = `
     <meta charset="utf-8">
     <title>Google Shared Drive</title>
     <meta name="Mecha" content="noindex">
-    <link rel="apple-touch-icon" sizes="180x180" href="USE YOUR OWN ICON">
-    <link rel="icon" sizes="32x32" href="USE YOUR OWN ICON">
-    <link rel="icon" sizes="16x16" href="USE YOUR OWN ICON">
-    <link rel="mask-icon" href="USE YOUR OWN ICON" color="#5bbad5">
+    <link rel="icon" sizes="16x16" href="https://cdn.discordapp.com/attachments/863056311569481729/941490880190246972/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
@@ -30,13 +27,8 @@ var html = `
     <link rel="stylesheet" href="https://raw.githubusercontent.com/LeeluPradhan/G-Index/master/css/mail-box-style.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://raw.githubusercontent.com/LeeluPradhan/G-Index/master/css/mail-box-style.css" crossorigin="anonymous">
 </head>
-<body style="background-image: url('Your Background Image');">
+<body style="background-image: url('https://api.ixiaowai.cn/api/api.php');">
     <br>
-    <center>
-        <a href="/"><img src="Head Logo - Use transparent PNG" height="50px"></a>
-        <br>
-        <br>
-    </center>
     <main>
         <div class="container min-height">
             <div>
@@ -44,7 +36,7 @@ var html = `
                     <div class="card-block">
                         <div class="row">
                             <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-3 text-center">
-                                <h1><img src="//cdn.jsdelivr.net/gh/jscdn/images@master/google/google-logo-t.png" alt="Google Logo" style="width:50px;height:50px;"></h1> ${ authConfig.domain ? `
+                                <h1><img src="https://cdn.discordapp.com/attachments/863056311569481729/941490880190246972/logo.png" alt="Google Logo" style="width:50px;height:50px;"></h1> ${ authConfig.domain ? `
                                 <h5>Create Shared Drive from:  ${authConfig.domain}</h5>` : "" }
                                 <p>
                                     Multiple back-end API requests, the process takes a long time, please be patient!
