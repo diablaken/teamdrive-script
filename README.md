@@ -1,6 +1,6 @@
 # teamdrive-script 🤝
 
-## This script will help you to share your [Google team drive](https://drive.google.com/drive/shared-drives) with public.
+## This script will help you to share your [Google Team Drive](https://drive.google.com/drive/shared-drives) with public.
 
 ### To do that :
 1. Your need a google account that have availability to create team drives.
